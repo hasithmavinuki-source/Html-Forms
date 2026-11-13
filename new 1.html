@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+	<title>html form</title>
+</head>
+<body>
+	<form action="index.php" method="POST" enctype="multipart/form-data">
+		<label for="Username" >Username: </label>
+		<input type="text" id="Username" minlength="6" maxlength="15" placeholder = "V7h2Tu6MQ45" required>
+		<br><br>
+		<label for="password">Password:</label>
+		<input type="password" id="password" minlength="5" maxlength="10" placeholder="Han*ehta#m72"  required> 
+		<br><br>
+		<label for="Email" >Email:</label>
+		<input type="email" id="Email" placeholder="hasithmavinuki@gmail.com">
+		<br><br>
+		<label for="phone num" >Phone Number:</label>
+		<input type="tel" id="phone num" placeholder="071-568-3902" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+		<br><br>
+		<label for="Birthdate" >Birthdate:</label>
+		<input type="date" id="Birthdate" placeholder="day month year">
+		<br><br>
+		<label for="quantity" >Quantity:</label>
+		<input type="number" id="quantity" min="0" max="99" value="1">
+		<br><br>
+		<label for="Title" >Title: </label>
+		<label for="Mr">Mr</label>
+		<input type="radio" id="Mr" name="tutu">
+		<label for="	Ms">Ms</label>
+		<input type="radio" id="Ms" name="tutu">
+		<label for="PhD">PhD</label>
+		<input type="radio" id="PhD" name="tutu">
+		<br><br>
+		<label for="Departent name">Department Name:</label>
+		<select id="Departent name"">
+			<option value="USCS">University of Colombo School of Computing</option>
+			<option value="UOMFIT">University of Moratuwa Faculty of IT</option>
+			<option value="UOKFOS">University od Kaleniya Faculty of Science</option>
+		</select>
+		<br> <br>
+		<label for="Button to subscribe">Subscribe</label>
+		<input type="checkbox" id="Button to subscribe" >
+		<br><br>
+		
+		<label for="Comment">Comment</label>
+		<textarea id="Comment" rows="3" cols="25" ></textarea>
+		<br><br>
+		
+		<label for="file">Upload the file: </label>
+		<input type="file" id="file" accept="image/png , image/jpeg">
+		<br><br>
+		
+		<input type="reset">
+		<input type="submit">
+	</form> 
+</body>
